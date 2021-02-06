@@ -1,0 +1,20 @@
+{
+  "name": "proyecto-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/custom.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1",
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.7"
+  }
+}

@@ -1,0 +1,49 @@
+ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+    padding-top: auto;
+    &:hover {
+    color: #c179ee;
+    }
+    span{
+        display: block;
+    }
+}
+
+@media (max-width: 992px) {
+    .col3 {
+        padding: 1rem 0rem;
+    }
+    .col-9 {
+        padding: 1rem 0rem 1.5rem .5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .col3 {
+        padding: 1rem 0rem;
+    }
+    .col-9 {
+        padding: 1rem 0rem 1rem .5rem;
+    }
+}
+
+.span-text {
+    text-decoration: none;
+    color: white;
+    &:hover{
+        color:#c179ee;
+    }
+}
+
+a span {
+    display: block;
+}
+
+
+.text-footer {
+        color: #c179ee;
+        text-shadow: 1px 1px rgb(99, 31, 161);
+}
+

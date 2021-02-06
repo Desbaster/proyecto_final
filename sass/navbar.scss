@@ -1,0 +1,92 @@
+.navbar {
+    box-shadow: 4px 4px 8px #420069;
+    .nav-item .nav-link {
+        color: white;
+        text-transform: uppercase;
+        font-weight: 500;
+        width: max-content;
+        border-bottom: 1px solid #000;
+        &:hover {
+            color: #c179ee;
+            border-bottom: 1px solid #c179ee;
+            font-weight: 500;
+            width: max-content;
+            transform: scale(1.05);
+        }        
+    }
+}
+
+.rrss {
+    background: none;
+    border-radius: 100px;
+    padding: 10px;
+    &:hover {
+        background-color: #c179ee;
+    }
+}
+
+svg.bi.bi-whatsapp {
+    animation-name: animacion1;
+    animation-duration: 1s;
+    position: relative;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+}
+
+
+@keyframes animacion1 {
+    0%{
+        fill: #420069;
+        }
+    100% {
+        fill: white;
+         } 
+}
+
+.navbar-brand {
+    animation-name: animacion2;
+    animation-duration: 1s;
+    position: relative;
+    animation-timing-function: ease;
+    transform-origin: center;
+}
+
+@keyframes animacion2 {
+    0% {top: -150px;}
+    100% {top: 0px;} }
+
+@media (max-width: 766px) {
+    .what-off {
+        display:none
+    }
+    .what-on {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 100;
+        background-color: #c179ee;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+    .what-off {
+        display:none
+    }
+    .what-on {
+        position: fixed;
+        top: 96px;
+        right: 20px;
+        z-index: 100;
+        background-color: #c179ee;
+    }
+}
+
+@media (min-width: 992px) {
+    .what-on {
+        display:none;
+    }
+}
+
+
+
