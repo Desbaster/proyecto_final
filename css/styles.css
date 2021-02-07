@@ -7518,7 +7518,7 @@ svg.bi.bi-whatsapp {
     bottom: 20px;
     right: 20px;
     z-index: 100;
-    background-color: #c179ee; } }
+    background-color: rgba(0, 0, 0, 0.5); } }
 
 @media (min-width: 767px) and (max-width: 991px) {
   .what-off {
@@ -7528,7 +7528,7 @@ svg.bi.bi-whatsapp {
     top: 96px;
     right: 20px;
     z-index: 100;
-    background-color: #c179ee; } }
+    background-color: rgba(0, 0, 0, 0.5); } }
 
 @media (min-width: 992px) {
   .what-on {
