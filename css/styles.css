@@ -7438,13 +7438,52 @@ main {
       border-radius: 3px;
       position: absolute; }
 
+#carousel_index {
+  overflow: hidden;
+  border-radius: 3px; }
+
 .carousel-caption {
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   background-color: rgba(0, 0, 0, 0.5);
   display: block;
-  padding: 16px;
   border-radius: 3px; }
+
+#carousel_index .carousel-indicators li {
+  border: 0;
+  margin: 4px;
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%; }
+  #carousel_index .carousel-indicators li.active {
+    border: 0;
+    margin: 4px;
+    background-color: #420069;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; }
+
+#carousel_index .arrow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(60, 0, 105, 0.3);
+  color: white;
+  text-align: center;
+  padding-top: 20vw;
+  border-radius: 3px; }
+  #carousel_index .arrow.prev {
+    left: 0;
+    width: 65px; }
+  #carousel_index .arrow.next {
+    right: 0;
+    width: 65px; }
+  #carousel_index .arrow .bi.bi-arrow-left-circle {
+    margin-top: auto; }
+
+ol.carousel-indicators {
+  padding-bottom: 5px; }
 
 .btn {
   font-family: 'Roboto', sans-serif; }
@@ -7468,20 +7507,33 @@ main {
     text-transform: uppercase;
     font-weight: 500;
     width: max-content;
-    border-bottom: 1px solid #000; }
+    border-bottom: 1px solid #000;
+    transition: all 200ms linear; }
     .navbar .nav-item .nav-link:hover {
       color: #c179ee;
       border-bottom: 1px solid #c179ee;
       font-weight: 500;
       width: max-content;
-      transform: scale(1.05); }
+      transform: scale(1.05);
+      transition: all 200ms linear; }
+
+.navbar-dark .navbar-toggler {
+  border-color: black; }
+
+.dropdown-item {
+  color: white; }
+  .dropdown-item:hover {
+    background-color: #c179ee;
+    color: white;
+    width: 124px; }
 
 .rrss {
   background: none;
   border-radius: 100px;
   padding: 10px; }
   .rrss:hover {
-    background-color: #c179ee; }
+    background-color: #c179ee;
+    transition: all 1s linear; }
 
 svg.bi.bi-whatsapp {
   animation-name: animacion1;

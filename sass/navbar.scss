@@ -6,13 +6,28 @@
         font-weight: 500;
         width: max-content;
         border-bottom: 1px solid #000;
+        transition: all 200ms linear;
         &:hover {
             color: #c179ee;
             border-bottom: 1px solid #c179ee;
             font-weight: 500;
             width: max-content;
             transform: scale(1.05);
+            transition: all 200ms linear;
         }        
+    }
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: black;
+}
+
+.dropdown-item {
+    color: white;
+    &:hover {
+        background-color: #c179ee;
+        color: white;
+        width: 124px;
     }
 }
 
@@ -22,6 +37,7 @@
     padding: 10px;
     &:hover {
         background-color: #c179ee;
+        transition: all 1s linear;
     }
 }
 
@@ -41,7 +57,7 @@ svg.bi.bi-whatsapp {
         }
     100% {
         fill: white;
-         } 
+    } 
 }
 
 .navbar-brand {

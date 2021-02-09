@@ -21,14 +21,68 @@ main {
     }
 }
 
+#carousel_index {
+    overflow: hidden;
+    border-radius: 3px;
+}
+
 .carousel-caption {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     background-color: rgba(0, 0, 0,.5);
     display: block;
-    padding: 16px;
     border-radius: 3px;
 }
+
+
+
+#carousel_index .carousel-indicators li {
+    border: 0;
+    margin: 4px;
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    &.active{
+        border: 0;
+        margin: 4px;
+        background-color: #420069;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+    }
+}
+
+#carousel_index .arrow{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(60, 0, 105, 0.3);
+    color: white;
+    text-align: center;
+    padding-top: 20vw;
+    border-radius: 3px;
+    &.prev {
+        left: 0;
+        width: 65px;
+    }
+    &.next {
+        right: 0;
+        width: 65px;
+    }
+    .bi.bi-arrow-left-circle {
+        margin-top: auto;
+    }
+    
+    
+}
+
+
+
+ol.carousel-indicators {
+    padding-bottom: 5px;
+}
+
 
 .btn {
     font-family: 'Roboto', sans-serif;
