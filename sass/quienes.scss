@@ -26,4 +26,10 @@
         overflow: auto;
     }
 }
+@media (max-width: 768px) {
+    ul#myTab {
+        flex-flow: column;
+        text-align: center;
+    }
+}
 

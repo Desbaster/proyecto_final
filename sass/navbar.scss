@@ -1,7 +1,3 @@
-#container-nav {
-    padding-left: 0px;
-}
-
 .navbar {
     box-shadow: 4px 4px 8px #420069;
     .nav-item .nav-link {
@@ -29,12 +25,14 @@
 
 .dropdown-item {
     color: white;
+    text-align: center;
     &:hover {
         background-color: #c179ee;
         color: white;
         transform: scale(1.05);
         transition: all 200ms linear;
         overflow: inherit;
+        text-align: center;
     }
 }
 

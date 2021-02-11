@@ -7431,6 +7431,11 @@ textarea.form-control-lg {
   .container-somos #myTabContent {
     overflow: auto; }
 
+@media (max-width: 768px) {
+  ul#myTab {
+    flex-flow: column;
+    text-align: center; } }
+
 .span-text {
   text-decoration: none;
   color: white; }
@@ -7536,9 +7541,6 @@ ol.carousel-indicators {
   .btn {
     font-size: .7rem; } }
 
-#container-nav {
-  padding-left: 0px; }
-
 .navbar {
   box-shadow: 4px 4px 8px #420069; }
   .navbar .nav-item .nav-link {
@@ -7561,13 +7563,15 @@ ol.carousel-indicators {
   border-color: black; }
 
 .dropdown-item {
-  color: white; }
+  color: white;
+  text-align: center; }
   .dropdown-item:hover {
     background-color: #c179ee;
     color: white;
     transform: scale(1.05);
     transition: all 200ms linear;
-    overflow: inherit; }
+    overflow: inherit;
+    text-align: center; }
 
 .rrss {
   background: none;
