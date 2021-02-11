@@ -1,5 +1,8 @@
 .navbar {
     box-shadow: 4px 4px 8px #420069;
+    li  {
+        align-self: center;
+    } 
     .nav-item .nav-link {
         color: white;
         text-transform: uppercase;
@@ -15,7 +18,7 @@
             width: max-content;
             transform: scale(1.05);
             transition: all 200ms linear;
-        }        
+        }
     }
 }
 
@@ -35,6 +38,10 @@
         text-align: center;
     }
 }
+
+// ul.navbar-nav.me-auto.mb-2.mb-lg-0> li {
+    
+// }
 
 .rrss {
     background: none;

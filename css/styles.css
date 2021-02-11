@@ -7431,7 +7431,7 @@ textarea.form-control-lg {
   .container-somos #myTabContent {
     overflow: auto; }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   ul#myTab {
     flex-flow: column;
     text-align: center; } }
@@ -7543,6 +7543,8 @@ ol.carousel-indicators {
 
 .navbar {
   box-shadow: 4px 4px 8px #420069; }
+  .navbar li {
+    align-self: center; }
   .navbar .nav-item .nav-link {
     color: white;
     text-transform: uppercase;
