@@ -1,0 +1,22 @@
+
+.card.bg-dark {
+    color: white;
+    .card-title {
+        background-color: $primary;
+        font-size: 32px;
+        line-height: 50px;
+        text-align: center;
+        border-bottom: 1px solid white;
+        .card-list {
+            background-color: black;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .card.bg-dark> .card-title {
+        font-size: 22px;
+    }
+}
+
+

@@ -1,0 +1,29 @@
+.container-somos {
+    padding-bottom: 16px;
+    font-family: 'Roboto', sans-serif;
+    .nav.nav-tabs {
+        letter-spacing: .2rem;
+        text-transform: uppercase;
+        font-size: 32px;
+        
+    }
+    .nav-item >.nav-link {
+        color: white;
+        border-color: white;
+        &.active {
+            color:white;
+            background-color: $primary;
+        }
+    }
+    .tab-content {
+        background-color: yellow;
+        height: 450px;
+        padding: 20px;
+        line-height: 2rem;
+        letter-spacing: .2rem;
+    }
+    #myTabContent {
+        overflow: auto;
+    }
+}
+

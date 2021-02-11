@@ -35,12 +35,14 @@
   <!-- navegation -->
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="../index.html">
+      <div id="container-nav" class="container">
+        <a class="navbar-brand" href="/">
           <img src="../img/logo.jpg" width="200" alt="el logo de la empresa: seguros barros" loading="lazy">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+            <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+          </svg>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -56,11 +58,19 @@
             <li class="nav-item">
               <a class="nav-link" href="productos.html">productos</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="cotizaciones.html">cotizaciones</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                cotizaciones
+              </a>
+              <ul class="dropdown-menu text-capitalize bg-dark" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="cotizaciones.html">empresas</a></li>
+                <li><a class="dropdown-item" href="cotizaciones.html">hogares</a></li>
+                <li><a class="dropdown-item" href="cotizaciones.html">vida</a></li>
+                <li><a class="dropdown-item" href="cotizaciones.html">automotores</a></li>
+              </ul>
             </li>
           </ul>
-          <form class="d-flex">
+          <div class="d-flex">
             <button class="rrss what-off" type="button">
               <a href="https://api.whatsapp.com/send?phone=59896001981" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg"  width="32" height="32" fill="white" class="bi bi-whatsapp" viewBox="0 0 16 16">
@@ -68,7 +78,7 @@
                 </svg>
               </a>
             </button>
-          </form>
+          </div>
         </div>
       </div>
     </nav>
@@ -84,8 +94,32 @@
       </a>
     </button>
     <!-- button whatsapp end -->
-    <h1 class="text-uppercase fw-bold text-white">pagina en construcción</h1>
-    
+    <h1 class="text-uppercase fw-bold text-white">quienes somos</h1>
+    <div class="container-somos mt-5">
+      <ul class="nav nav-tabs bg-dark" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">quienes somos</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">nuestra mision</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+        </li>
+      </ul>
+      <div class="tab-content bg-dark text-white p-5" id="myTabContent">
+      <div class="tab-pane fade show active" id="home" role="tabpanel"aria-labelledby="home-tab">
+          Grupo Barros Asesores es una empresa familiar que nació en el año 1965 que se dedico en una primera etapa, a los seguros de prevención sobre la familia, específicamente los seguros de vida y ahorro. Era una época en la cual la mujer aun no tenía una inserción laboral tan fuerte como hoy en día y un prematuro fallecimiento del padre de familia quien era el sostén económico de la misma, dejaba a esa familia con muchas deudas y sin ninguna posibilidad de sustento económico. Esa realidad de la época motivo a Walter Barros creador del Grupo Barros Asesores a incursionar fuertemente en los seguros de Vida con gran suceso, desarrollando productos que generaron una verdadera protección para la familia, cuyos beneficios tiene vigencia hoy en día. Ya en el año 1975 incluyo en su propuesta de productos los seguros Generales para las empresas como también para las personas. Posteriormente, decidió ampliar la empresa integrando a sus hijos Osvaldo y Esther lo cual dio nacimiento al Grupo Barros Asesores. Esta asociación permitió generar un fuerte desarrollo e innovación a la empresa.
+      </div>
+      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          Ofrecer a las personas la posibilidad de tener una protección efectiva para su familia, para su patrimonio, incluso para su responsabilidad Civil como persona y también como empresa, frente a hechos imprevistos fortuitos y accidentales, pero también frente a hechos previstos como la perdida de la vida, que puedan generar un perjuicio económico irreparable.
+      </div>
+      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+          El principal y más importante servicio que ofrecemos es el correcto asesoramiento al posible cliente. Porque nuestro objetivo es que al momento de sufrir un siniestro el seguro sea un solución y no un problema. Por esa razón dedicamos mucho tiempo en el asesoramiento previo a la contratación de un seguro.
+      </div>
+      </div>
+    </div>
+  </main>
   <!-- footer -->
   <footer class="footer pt-3 pb-1 bg-dark">
     <div class="container">

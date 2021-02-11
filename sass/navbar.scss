@@ -1,9 +1,14 @@
+#container-nav {
+    padding-left: 0px;
+}
+
 .navbar {
     box-shadow: 4px 4px 8px #420069;
     .nav-item .nav-link {
         color: white;
         text-transform: uppercase;
         font-weight: 500;
+        font-size: 22px;
         width: max-content;
         border-bottom: 1px solid #000;
         transition: all 200ms linear;
@@ -27,7 +32,9 @@
     &:hover {
         background-color: #c179ee;
         color: white;
-        width: 124px;
+        transform: scale(1.05);
+        transition: all 200ms linear;
+        overflow: inherit;
     }
 }
 

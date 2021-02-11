@@ -3,6 +3,9 @@ $dark:          #000;
 $primary:       #420069;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import "../sass/productos.scss";
+@import "../sass/servicio.scss";
+@import "../sass/quienes.scss";
 @import "../sass/footer.scss";
 @import "../sass/main_index.scss";
 @import "../sass/navbar.scss";
