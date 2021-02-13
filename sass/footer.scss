@@ -1,4 +1,5 @@
 .span-text {
+    font-family: 'ROBOTO', sans-serif;
     text-decoration: none;
     color: white;
     &:hover{
@@ -10,9 +11,12 @@ a span {
     display: block;
 }
 
-.text-footer {
-    color: #c179ee;
+p.text-center{
+    font-family: 'ROBOTO', sans-serif;
+    .text-footer {
+        color: #c179ee;
         text-shadow: 1px 1px rgb(99, 31, 161);
+    }
 }
 
 @media (max-width: 992px) {
