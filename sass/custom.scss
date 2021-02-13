@@ -3,6 +3,10 @@ $dark:          #000;
 $primary:       #420069;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import "../sass/automotores.scss";
+@import "../sass/vida.scss";
+@import "../sass/hogares.scss";
+@import "../sass/empresas.scss";
 @import "../sass/contacto.scss";
 @import "../sass/productos.scss";
 @import "../sass/servicio.scss";
@@ -14,4 +18,8 @@ $primary:       #420069;
 body {
     background: linear-gradient(180deg, rgba(66, 0, 105,.9) 0%, rgba(143,60,193,1) 75%, #c179ee 100%), url("../img/iconp.png");
     background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    h1 {
+        font-family:'Source Serif Pro', serif;
+    }
 } 
