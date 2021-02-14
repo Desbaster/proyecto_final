@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss sass/custom.scss css/styles.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
-    "build": "purgecss --css css/styles.css --content index.html -o css/reducido.css"
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
     
   },
   "keywords": [],
